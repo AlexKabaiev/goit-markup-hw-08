@@ -1,11 +1,9 @@
 .filter {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.filter > .filter__item:not(:last-child) {
-  margin-right: 8px;
+  gap: 8px;
 }
 
 .filter__button {

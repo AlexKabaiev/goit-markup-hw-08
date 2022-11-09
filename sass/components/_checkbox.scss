@@ -32,11 +32,10 @@
   border-radius: 2px;
   transition: border-color 250ms var(--timing-function),
   background-color 250ms var(--timing-function);
-}
-
-.checkbox__input:checked + .checkbox__box {
-  background-color: var(--color-accent);
-  border: 0;
+  .checkbox__input:checked + & {
+    background-color: var(--color-accent);
+    border: 0;
+  }
 }
 
 .checkbox__link {

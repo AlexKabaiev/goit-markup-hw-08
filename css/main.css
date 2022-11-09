@@ -149,7 +149,6 @@ section {
   -webkit-transition: border-color 250ms var(--timing-function), background-color 250ms var(--timing-function);
   transition: border-color 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
-
 .checkbox__input:checked + .checkbox__box {
   background-color: var(--color-accent);
   border: 0;
@@ -296,14 +295,14 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 50px;
-}
-
-.filter > .filter__item:not(:last-child) {
-  margin-right: 8px;
+  gap: 8px;
 }
 
 .filter__button {
