@@ -1,3 +1,4 @@
+/*Utils*/
 :root {
   --color-primary: #757575;
   --color-brand: #212121;
@@ -27,6 +28,7 @@
   margin: -1px;
 }
 
+/*Base*/
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   font-size: 14px;
@@ -50,11 +52,20 @@ ul {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
+/*Components*/
 .address {
   font-style: normal;
   font-weight: 400;
