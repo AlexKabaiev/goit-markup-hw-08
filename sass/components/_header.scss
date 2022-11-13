@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.header__portfolio {
+.header__menu {
   display: flex;
   justify-content: space-between;
   width: 281px;
@@ -34,7 +34,7 @@
   transition: color 250ms var(--timing-function);
   &:hover,
   &:focus {
-  color: var(--color-accent);
+    color: var(--color-accent);
   }
 }
 
@@ -69,10 +69,10 @@
   text-decoration: none;
   transition: color 250ms var(--timing-function);
   &:hover {
-  color: var(--color-accent);
+    color: var(--color-accent);
   }
   &:focus {
-  color: var(--color-accent);
+    color: var(--color-accent);
   }
 }
 
@@ -81,9 +81,9 @@
   margin-right: 10px;
   fill: currentColor;
   &:hover {
-  color: var(--color-accent);
+    color: var(--color-accent);
   }
   &:focus {
-  color: var(--color-accent);
+    color: var(--color-accent);
   }
 }
