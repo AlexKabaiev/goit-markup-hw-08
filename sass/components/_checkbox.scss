@@ -20,6 +20,10 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--color-primary);
+  @media screen and (max-width: 479px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .checkbox__box {
@@ -31,7 +35,7 @@
   border: 2px solid var(--color-brand);
   border-radius: 2px;
   transition: border-color 250ms var(--timing-function),
-  background-color 250ms var(--timing-function);
+    background-color 250ms var(--timing-function);
   .checkbox__input:checked + & {
     background-color: var(--color-accent);
     border: 0;
